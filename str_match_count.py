@@ -9,8 +9,7 @@ list1 = ['abc', 'robin', 'pop', 'aa', 'bob']
 count = 0
 
 for x in list1:
-    if len(x) > 2:
-      if x[0] == x[-1]:
+    if len(x) > 2 and x[0] == x[-1]:
         count += 1
     
 print count
