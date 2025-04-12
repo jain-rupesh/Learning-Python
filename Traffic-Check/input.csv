@@ -1,0 +1,4 @@
+Source Zone,Destination Zone,Source IP,Destination IP,Port,Protocol
+trust,untrust,192.168.1.100,8.8.8.8,53,udp
+trust,dmz,10.0.0.5,172.16.0.10,443,tcp
+guest,untrust,192.168.50.10,1.1.1.1,80,tcp
